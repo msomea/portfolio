@@ -154,3 +154,31 @@ nav {
   color: var(--gold);
   font-size: 1.2rem;
 }
+
+/* Contact */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.contact-form button {
+  background: var(--gold);
+  color: #000;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.contact-form button:hover {
+  background: #fff;
+}
