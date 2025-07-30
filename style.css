@@ -9,7 +9,6 @@ body {
   color: #fff;
   line-height: 1.6;
 }
-
 /* Colors */
 :root {
   --gold: #FFD700;
@@ -86,7 +85,6 @@ nav {
   background: #fff;
   color: #000;
 }
-
 /* Sections */
 .section {
   padding: 80px 10%;
@@ -99,4 +97,31 @@ nav {
   color: var(--gold);
   font-size: 2rem;
   margin-bottom: 40px;
+}
+
+/* About me section */
+.section-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+.skill-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.skill-card:hover {
+  background: var(--gold);
+  color: #000;
+  transform: scale(1.05);
 }
