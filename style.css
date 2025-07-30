@@ -1,0 +1,50 @@
+/* Global Settings */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Colors */
+:root {
+  --gold: #FFD700;
+  --dark: #000;
+  --light: #222;
+}
+
+/* Navigation links */
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 1000;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--gold);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav-links a:hover {
+  color: var(--gold);
+}
