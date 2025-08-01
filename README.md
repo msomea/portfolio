@@ -46,15 +46,15 @@ git clone https://github.com/msomea/portfolio.git
 ```
 ## Deployment
 This site is deployed on **GitHub Pages**:
-👉 **[https://msomea.github.io/portfolio/](https://msomea.github.io/portfolio/)**
+**[https://msomea.github.io/portfolio/](https://msomea.github.io/portfolio/)**
 
 
 
-## 📬 Contact
+## Contact
 - **Name:** Raphael Msomea
 - **Email:** msomearaphael@gmail.com
 - **Portfolio:** [Live Link](https://msomea.github.io/portfolio/)
 
-### 🏆 Hackathon Submission
+### Hackathon Submission
 This project was created for the **PLP Academy Hackathon (July 30th – Aug 3rd, 2025)**.
 
