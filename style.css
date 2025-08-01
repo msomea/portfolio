@@ -139,22 +139,27 @@ nav {
 .interests-list {
   list-style: none;
   padding: 0;
-  max-width: 500px;
-  margin: auto;
+  max-width: 700px;
+  margin: 20px auto 0;
   font-size: 1.1rem;
+  text-align: left;
 }
+
 .interests-list li {
   background: #111;
   padding: 12px 20px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  margin-bottom: 12px;
+  border-left: 4px solid var(--gold);
+  border-radius: 4px;
   color: var(--gold);
   transition: background 0.3s;
 }
+
 .interests-list li:hover {
   background: var(--gold);
   color: #000;
 }
+
 
 /* Projects  section */
 .projects-grid {
